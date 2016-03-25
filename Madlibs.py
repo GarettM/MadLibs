@@ -26,4 +26,4 @@ year = input("Enter a year: ")
 #The template for the story
 STORY = "This morning I woke up and felt {} because {} was going to finally {} over the big {} {}. On the other side of the {} were many {}s protesting to keep {} in stores. The crowd began to {} to the rythym of the {}, which made all of the {}s very {}. {} tried to {} into the sewers and found {} rats. Needing help, {} quickly called {}. {} appeared and saved {} by flying to {} and dropping {} into a puddle of {}. {} then fell asleep and woke up in the year {}, in a world where {}s ruled the world."
 
-print STORY % (adj1, name, verb1, adj2, noun1, noun2, animal, food, verb2, noun3, fruit, adj3, name, verb3, number, name, hero, hero, name, country, name, dessert, name, year, noun4)
+print STORY(adj1, name, verb1, adj2, noun1, noun2, animal, food, verb2, noun3, fruit, adj3, name, verb3, number, name, hero, hero, name, country, name, dessert, name, year, noun4)
